@@ -1,0 +1,195 @@
+
+/*-----Text Styling----*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color:#1D2851;
+}
+
+h1.h1-homepage {
+    font-size:1.8em;
+    font-weight: 700;
+    color:#303F89;
+    text-decoration: underline;
+}
+
+h1.h1-homepage:hover {
+    color:#36489c;
+}
+
+h2 {
+    color:#303f89;
+}
+
+p {
+    font-size:1.1em;
+    font-weight:500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tagline p {
+    text-align:center;
+    color:#1D2851;
+    font-size:2.0em;
+    font-weight: 600;
+}
+
+.footer-text {
+    text-align: center;
+    font-size:0.8em;
+}
+
+/*-----Top Navbar Styling----*/
+
+.nav .nav-item .nav-link {
+    padding-left:14px;
+    padding-right:14px;
+    font-weight: 600;
+    color:#1D2851;
+}
+
+.nav .nav-item .nav-link:hover {
+    color:#303F89;
+}
+
+.nav .nav-item {
+    margin:10px 0;
+}
+
+.btn {
+    background-color:#70a01c;
+}
+
+.btn:hover {
+    background-color:#688c18;
+}
+
+
+/*-----Image Styling----*/
+
+
+.wf-logo {
+    width:80%;
+    height:auto;
+    padding-top:20px;
+}
+
+.hero-image {
+    width:100%;
+    height:auto;
+}
+
+.social-media-logos {
+    text-align: center;
+    /*margin-bottom:15px;*/
+}
+
+.social-media-logo-size {
+    width:15%;
+    height:auto;
+    padding:10px;
+}
+
+.homepage-icon {
+    width:100%;
+}
+
+h1 img {
+    padding-left:4px;
+    padding-bottom:4px;
+}
+
+/*img.chevron-icon {
+    margin-left:6px;
+}*/
+
+img.hbp-donate-button {
+    width:100%;
+    height:auto;
+}
+
+
+/*-----Layout Styling----*/
+
+
+.hero-background {
+    /*background-color: #1D2851;*/
+    background-color: #fff;
+}
+
+.hero-image-background {
+    padding:0;
+}
+
+.homepage-icon-row {
+    margin-bottom:30px;
+}
+
+.logo-background {
+    background-color: #303F89;
+    height:100%;
+}
+
+.tagline {
+    margin:30px 0 20px 0;
+}
+
+.homepage-colored-block {
+    padding:20px 30px 0 30px;
+}
+
+.mission-vision-block {
+    background-color:#DEE4FC;
+    height:100%;
+}
+
+.community-projects-block {
+    background-color:#FFF7A2;
+    height:100%;
+    /*margin:0px 26px;*/
+}
+
+.donate-block {
+    background-color:#D9F7B5;
+    height:100%;
+}
+
+.buddhist-philosophy-block {
+    background-color:#F9D7E2;
+    height:100%;
+}
+
+.medical-education-block {
+    background-color:#F9DFA5;
+    height:100%;
+}
+
+.books-publications-block {
+    background-color:#E6E6D4;
+    height:100%;
+}
+
+.footer-section {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.main-content-area-column {
+    padding-right:40px;
+}
+
+
+
+/*
+.wf-logo {
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}*/
+

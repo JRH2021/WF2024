@@ -20,7 +20,21 @@ h1.h1-homepage:hover {
     color:#36489c;
 }
 
+.h1-secondary-pages {
+    font-size:2.8em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 h2 {
+    color:#303f89;
+}
+
+h3 {
+    color:#303f89;
+}
+
+h4 {
     color:#303f89;
 }
 
@@ -70,6 +84,12 @@ a {
     background-color:#688c18;
 }
 
+.menu-text span {
+    padding-left:56px;
+    margin-top:7px;
+    font-weight: 600;
+}
+
 
 /*-----Image Styling----*/
 
@@ -78,16 +98,21 @@ a {
     width:80%;
     height:auto;
     padding-top:20px;
+    /*max-height:500px;*/
 }
 
 .hero-image {
     width:100%;
     height:auto;
+    /*width:1100px;
+    height:660px;*/
+    object-fit: cover;
+    max-height:530px;
 }
 
 .social-media-logos {
     text-align: center;
-    /*margin-bottom:15px;*/
+    margin-bottom:15px;
 }
 
 .social-media-logo-size {
@@ -97,7 +122,10 @@ a {
 }
 
 .homepage-icon {
-    width:100%;
+    display:block;
+    margin:auto;
+    width:40%;
+    margin-bottom: -20px;
 }
 
 h1 img {
@@ -110,8 +138,10 @@ h1 img {
 }*/
 
 img.hbp-donate-button {
-    width:100%;
+    width:82%;
     height:auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -134,6 +164,17 @@ img.hbp-donate-button {
 .logo-background {
     background-color: #303F89;
     height:100%;
+    /*max-height:530px;*/
+}
+
+/*.logos-container {
+    width:100%;
+    height:auto;
+    max-height:500px;
+}*/
+
+.nav {
+    margin:0 auto;
 }
 
 .tagline {
@@ -142,6 +183,7 @@ img.hbp-donate-button {
 
 .homepage-colored-block {
     padding:20px 30px 0 30px;
+    border-bottom: 30px solid white;
 }
 
 .mission-vision-block {
@@ -182,6 +224,63 @@ img.hbp-donate-button {
 
 .main-content-area-column {
     padding-right:40px;
+}
+
+.line-break {
+    display:none;
+}
+
+.line-break-2 {
+    display:none;
+}
+
+
+/*-----Publication Page Styling----*/
+
+.book-cover {
+    float:left;
+    padding-right:30px;
+    padding-bottom:20px;
+}
+
+.purchase-button {
+    background-color:#70a01c;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+    border-radius: 8px;
+}
+
+.purchase-button:hover {
+    background-color:#698b24;
+}
+
+.book-price {
+    font-size:2em;
+}
+
+table {
+    width:50%;
+    margin:20px 0px;
+  }
+
+table, td {
+    border: none;
+  }
+
+td {
+    height:33px;
+}
+
+.wider-table {
+    width:65%;
+}
+
+/*-----Donate Page Styling----*/
+
+.h3-donate-page {
+    color:#698b24;
+    margin-bottom:20px;
 }
 
 
